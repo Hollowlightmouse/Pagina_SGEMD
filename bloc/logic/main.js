@@ -1,12 +1,12 @@
 // === EQUIPO ===
 const miembros = [
-  { nombre: "Juan Pablo Ángel Quitián", apodo: "backend-dev", descripcion: "Desarrollador backend enfocado en la lógica del sistema y gestión de base de datos.", imagen: "../style/img/juan_pablo.jpg" },
-  { nombre: "Joel Sebastián Bueno Medina", apodo: "backend-dev", descripcion: "Desarrollador backend enfocado en la lógica del sistema y gestión de base de datos.", imagen: "../style/img/Joel_Malo.jpg" },
-  { nombre: "Johan Steven López Ordoñez", apodo: "frontend-dev", descripcion: "Diseñador y desarrollador frontend responsable de la interfaz web.", imagen: "../style/img/Johan_Sanchez.jpg" },
-  { nombre: "Juan Sebastián Rueda Ortiz", apodo: "frontend-dev", descripcion: "Diseñador y desarrollador frontend responsable de la interfaz web.", imagen: "../style/img/Juan_Rueda.jpg" },
-  { nombre: "Jairo Esteban Salgado Tinoco", apodo: "Tech Writer", descripcion: "Responsable de la creación, organización y mantenimiento de la documentación del proyecto SGEMD.", imagen: "../style/img/Jairo_Tinoco.jpg" },
-  { nombre: "Esteban Morales", apodo: "scrum-master", descripcion: "Asesor área de programación y mentor académico del proyecto SGEMD.", imagen: "../style/img/Esteban_Morales.jpg" },
-  { nombre: "Juan Carlos Gonzales", apodo: "asesor-docs", descripcion: "Asesor del área de documentación y mentor académico del proyecto SGEMD.", imagen: "../style/img/Juan_Carlos.png" }
+  { nombre: "Juan Pablo Ángel Quitián", apodo: "backend-dev", descripcion: "Desarrollador backend enfocado en la lógica del sistema y gestión de base de datos.", imagen: "bloc/style/img/juan_pablo.jpg" },
+  { nombre: "Joel Sebastián Bueno Medina", apodo: "backend-dev", descripcion: "Desarrollador backend enfocado en la lógica del sistema y gestión de base de datos.", imagen: "bloc/style/img/Joel_Malo.jpg" },
+  { nombre: "Johan Steven López Ordoñez", apodo: "frontend-dev", descripcion: "Diseñador y desarrollador frontend responsable de la interfaz web.", imagen: "bloc/style/img/Johan_Sanchez.jpg" },
+  { nombre: "Juan Sebastián Rueda Ortiz", apodo: "frontend-dev", descripcion: "Diseñador y desarrollador frontend responsable de la interfaz web.", imagen: "bloc/style/img/Juan_Rueda.jpg" },
+  { nombre: "Jairo Esteban Salgado Tinoco", apodo: "Tech Writer", descripcion: "Responsable de la creación, organización y mantenimiento de la documentación del proyecto SGEMD.", imagen: "bloc/style/img/Jairo_Tinoco.jpg" },
+  { nombre: "Esteban Morales", apodo: "scrum-master", descripcion: "Asesor área de programación y mentor académico del proyecto SGEMD.", imagen: "bloc/style/img/Esteban_Morales.jpg" },
+  { nombre: "Juan Carlos Gonzales", apodo: "asesor-docs", descripcion: "Asesor del área de documentación y mentor académico del proyecto SGEMD.", imagen: "bloc/style/img/Juan_Carlos.png" }
 ];
 
 // === BLOG ===
@@ -38,7 +38,7 @@ const postContainer = document.getElementById('posts');
 posts.forEach(p => {
   postContainer.innerHTML += `
     <div class="post">
-      <img src="../style/img/l.png" alt="Blog Post" />
+      <img src="bloc/style/img/l.png" alt="Blog Post" />
       <h3>${p.titulo}</h3>
       <p>${p.contenido}</p>
     </div>
